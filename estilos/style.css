@@ -275,14 +275,74 @@ div.quadrado > img {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);
 }
 
-section.adicionais > ul {
-    list-style-position: inside;
-    list-style-type: '✓';
-    columns: 1;
-    padding-left: 100px;
-    background-color: var(--cor2);
-    border-radius: 4px;
-}
+section.adicionais .card-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 1px;
+    }
+    
+    section.adicionais .card-item {
+    height: 500px;
+    background:  linear-gradient(to right, var(--cor3), var(--cor1), var(--cor3));
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: 0;
+    }
+    
+    .card-item img {
+    margin: auto;
+    display: block;
+    width: 96%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
+    }
+    
+    .card-item h5 {
+    width: 90%;
+    color: var(--cor1);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.76);
+    }
+    
+    .card-item p {
+    width: 90%;
+    color: #000000;
+    }
+    
+    section.adicionais > div.card-wrapper > div.card-item > div.card-content > h5 {
+        font-family: var(--fonte-burguer);
+        text-align: center;
+        font-size: 1.4em;
+        line-height: 1;
+        padding: 1.5px;
+    }
+    
+    section.adicionais > div.card-wrapper > div.card-item > div.card-content > ul {
+        font-family: var(--fonte-padrao);
+        padding-top: 10px;
+        color: var(--cor5);
+        text-shadow:  1px 1px 10px rgba(0, 0, 0, 0.76);
+        text-align: auto;
+        margin: auto;
+        font-size: 1.15em;
+        line-height: 1;
+        list-style-position: inside;
+        list-style-type: '✓';
+        columns: 1;
+    }
 
 article > h1 {
     padding-bottom: 2px;
@@ -299,7 +359,7 @@ article > p {
     border-radius: 8px;
 }
 
-section .card-wrapper {
+section .card-wrapper1 {
 max-width: 1000px;
 height: 100%;
 display: grid;
@@ -310,7 +370,7 @@ padding-bottom: 10px;
 margin: 1px;
 }
 
-section .card-item {
+section .card-item1 {
 height: 600px;
 background:  linear-gradient(to right, var(--cor0), var(--cor3), var(--cor0));
 border-radius: 8px;
@@ -320,7 +380,7 @@ align-items: center;
 justify-content: center;
 }
 
-.card-content {
+.card-content1 {
 height: 40%;
 display: flex;
 flex-direction: column;
@@ -328,24 +388,24 @@ align-items: left;
 justify-content: 0;
 }
 
-.card-item img {
+.card-item1 img {
 width: 80%;
 border-radius: 8px;
 box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
 }
 
-.card-item h5 {
+.card-item1 h5 {
 width: 90%;
 color: var(--cor1);
 text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.76);
 }
 
-.card-item p {
+.card-item1 p {
 width: 90%;
 color: #000000;
 }
 
-section > div.card-wrapper > div.card-item > div.card-content > h5 {
+section > div.card-wrapper1 > div.card-item1 > div.card-content1 > h5 {
     font-family: var(--fonte-burguer);
     text-align: center;
     font-size: 1.4em;
@@ -353,7 +413,7 @@ section > div.card-wrapper > div.card-item > div.card-content > h5 {
     padding: 1.5px;
 }
 
-section > div.card-wrapper > div.card-item > div.card-content > ul {
+section > div.card-wrapper1 > div.card-item1 > div.card-content1 > ul {
     font-family: var(--fonte-destaque);
     padding-top: 10px;
     color: var(--cor5);
