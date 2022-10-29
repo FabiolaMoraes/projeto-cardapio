@@ -291,6 +291,8 @@ section.adicionais > ul {
     list-style-type: '✓';
     columns: 1;
     padding-left: 100px;
+    background-color: var(--cor2);
+    border-radius: 4px;
 }
 
 article > h1 {
