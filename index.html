@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZBurguer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="shortcut icon" href="imagens/fav.ico" type="image/x-icon">
+</head>
+<body onresize="mudouTamanho()" >
+    <header>
+        <h1><img src="imagens/zb.png" alt="zb"></h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens" >
+            <ul>
+                <li><a href="#catalogo">Cardápio</a></li>
+                <li><a href="#about">Quem somos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+          <section class="catalogo" id="catalogo"></section>
+            <h1>Cardápio</h1>
+                <p>
+                  Lanches com produtos selecionados e qualidade <strong>única</strong>!
+                  Se surpreenda com um sabor <strong>incomparável</strong></p>
+    
+                <h2>
+                    Clássicos e tradicionais 
+                </h2>
+
+                <div class="quadrado">   
+                  <h3>Clássicos Peito  <img src="imagens/hamb.png" alt="hamb"></h3>
+                  <h4> PEITO SIMPLES..................................R$20,00 </h4>
+                  <f>Pão - Hamburguer - Presunto - Mussarela</f>
+                  <h4> PEITO SALADA...................................R$22,00 </h4>
+                  <f>Pão - Peito - Presunto - Mussarela - Tomate - Alface - Milho - Cebola</f>
+                  <h4> PEITO BACON....................................R$23,00 </h4>
+                  <f>Pão - Peito - Presunto - Mussarela - Bacon</f>
+                  <h4> PEITO EGG.........................................R$23,00 </h4>
+                  <f>Pão - Peito - Presunto - Mussarela - 02 Ovos</f>
+                  <h4> PEITO EGG BACON..............................R$27,00 </h4>
+                  <f>Pão - Peito - Presunto - Mussarela - 02 Ovos - Bacon</f>
+                  <h4> PEITO SALADA BACON.......................R$27,00 </h4>
+                  <f>Pão - Peito - Presunto - Mussarela - Bacon - Tomate - Alface - Milho</f>
+                  <h4> PEITO SALADA EGG............................R$27,00 </h4>
+                  <f>Pão - Peito - Presunto - Mussarela - 02 Ovos - Tomate - Alface - Milho</f>
+                  <h4> PEITO TUDO.......................................R$32,00 </h4>
+                  <f>Pão - 02 Peitos - Presunto - Mussarela - Bacon - 02 Ovos - Tomate - Alface - Milho</f>
+
+                  <img src="imagens/cheddar.jpg" alt="fritas">
+
+                </div>
+                <div class="quadrado">
+                  <h3>Clássicos Burguer<img src="imagens/hamb.png" alt="hamb"></h3>
+                
+                  <h4> X BURGUER.......................................R$20,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela</f>
+                  <h4> X SALADA.........................................R$22,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela - Tomate <br> Alface - Milho</f>
+                  <h4> X BACON...........................................R$23,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela - Bacon</f>
+                  <h4> X EGG................................................R$23,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela - 02 Ovos</f>
+                  <h4> X EGG BACON....................................R$27,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela - 02 Ovos - Bacon</f>
+                  <h4> X SALADA BACON..............................R$27,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela - Bacon <br> Tomate - Alface - Milho</f>
+                  <h4> X SALADA EGG..................................R$27,00 </h4>
+                  <f>Pão - Hambúrguer - Presunto - Mussarela - 02 Ovos <br> Tomate - Alface - Milho</f>
+                  <h4> X TUDO.............................................R$32,00</h4>
+                  <f>Pão - 02 Hambúrgueres - Presunto - Mussarela <br> Bacon - 02 Ovos -Tomate - Alface - Milho - Cebola</f> 
+                   </f>  
+                  <img src="imagens/fritas.jpg" alt="hotdog">
+                
+                </div>
+                <div class="quadrado">
+                  <h3>Hot Dogs <img src="imagens/hot.png" alt="hamb"></h3>
+                  <h4> CARNE..............................................R$16,00 </h4>
+                  <f>Pão - Carne - Salsicha - Batata Palha - Purê de Batata - Molhos e Arro </f>
+                  <h4> FRANGO............................................R$16,00 </h4>
+                  <f>Pão - Frango - Salsicha - Batata Palha - Purê de Batata - Molhos e Arro</f>
+                  <h4> MISTO...............................................R$16,00 </h4>
+                  <f>Pão - Carne - Frango - Salsicha - Batata Palha - Purê de Batata - Molhos e Arro</f>
+                  <h4> PIZZA...............................................R$16,00 </h4>
+                  <f>Pão - Salsicha - Batata Palha - Tomate - Presunto - Mussarela - Orégano - Molhos e Arro</f>
+
+                  <h3>LANCHÕES <img src="imagens/hot.png" alt="hamb"></h3>
+                  <h4> LANCHÃO CARNE...............................R$21,00 </h4>
+                  <f>Pão - Salsicha - Carne - Batata Palha - Presunto - Mussarela - Purê de Batata - Molhos e Arro </f>
+                  <h4> LANCHÃO FRANGO.............................R$21,00 </h4>
+                  <f>Pão - Salsicha - Frango - Batata Palha - Presunto - Mussarela - Purê de Batata - Molhos e Arro</f>
+                  <h4> LANCHÃO MISTO................................R$21,00 </h4>
+                  <f>Pão - Salsicha - Carne - Frango - Batata Palha - Presunto - Mussarela - Purê de Batata - Molhos e Arro</f>
+                  <img src="imagens/hotdog.jpg" alt="hotdog">
+                </div>
+
+                <section class="adicionais">
+                  
+                    <h3>Adicionais</h3>
+  
+                    <ul>
+                        <li>
+                           <f>Bacon.......................R$5,00</f>
+                        </li>
+                        <li>
+                          <f>Catupiry....................R$5,00</f>
+                        </li>
+                        <li>
+                            <f>Mussarela................R$5,00</f>
+                        </li>
+                        <li>
+                            <f>Cheddar...................R$5,00</f>
+                        </li>
+                        <li>
+                            Creme Cheddar.......R$5,00
+                        </li>
+                        
+                        <li>
+                           Cebola Caramelizada..........R$3,00
+                        </li>
+                        <li>
+                            Cream Cheese....................R$5,00
+                        </li>
+                        <li>
+                            Hamburguer Artesanal........R$8,00
+                        </li>
+                        <li>
+                           Hamburguer Vegatariano..R$10,00
+                        </li>
+                        <li>
+                           Lanche no prato..................R$2,00
+                        </li>
+                    </ul>
+
+                    </section>
+                    <section class="adicionais">
+                  <h3>Bebidas</h3>
+                  
+                  <ul>
+                      <li>
+                         Refrigerantes Lata.....R$5,00
+                      </li>
+                      <li>
+                        Coca-Cola 1L............R$8,00
+                      </li>
+                      <li>
+                        Guaraná 1L...............R$8,00
+                      </li>
+                      <li>
+                        Cerveja Lata.......R$5,00
+                      </li>
+                      <li>
+                        Água...................R$3,50
+                      </li>
+                      <li>
+                        Sucos...............R$10,00
+                      </li>
+                  </ul>
+              </section>
+              
+                <h6>
+                  Gourmets
+                </h6>
+
+                <section>
+                    <div class="card-wrapper">
+                        <div class="card-item">
+                          <img src="imagens/01.jpg" alt=burguer2 />
+                          <div class="card-content">
+                           <br><h5>Clássico Burguer</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola roxa
+                                </li>
+                                <li>
+                                  Tomate
+                                </li>
+                                <li>
+                                  Alface
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Molho Especial Big Tasty
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/02.jpg" alt=burguer2 />
+                          <div class="card-content">
+                          <br><h5> Bacon Burguer </h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola roxa e Caramelizada
+                                </li>
+                                <li>
+                                  Alface e Tomate
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Bacon crocante
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Molho Especial Big Tasty
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/03.jpg" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Baconpiry</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola Caramelizada
+                                </li>
+                                <li>
+                                  Catupiry
+                                </li>
+                                <li>
+                                  Bacon
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/04.jpg" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Triplo Queijo</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola roxa
+                                </li>
+                                <li>
+                                  Alface
+                                </li>
+                                <li>
+                                  Triplo Cheddar
+                                </li>
+                                <li>
+                                  Cheddar cremoso
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Molho Especial Big Tasty
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/05.png" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Top Catupiry e Alho</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Bacon Crocante
+                                </li>
+                                <li>
+                                  Alho Frito
+                                </li>
+                                <li>
+                                  Catupiry
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Molho Especial de alho
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/06.jpg" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Especial Cheddar</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola roxa
+                                </li>
+                                <li>
+                                  Alface
+                                </li>
+                                <li>
+                                  Bacon Crocante
+                                </li>
+                                <li>
+                                  Triplo Cheddar Cremoso
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/07.jpg" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Burguer BBQ</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola Caramelizada
+                                </li>
+                                <li>
+                                  Rúcula ou Alface
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Molho Barbecue
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/08.jpg" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Clássico Burguer</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola roxa
+                                </li>
+                                <li>
+                                  Tomate
+                                </li>
+                                <li>
+                                  Alface
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Big Tasty
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="card-item">
+                          <img src="imagens/08.jpg" alt=burguer2 />
+                          <div class="card-content">
+                            <br><h5>Clássico Burguer</h5>
+                              <ul>
+                                <li>
+                                  Pão Brioche
+                                </li>
+                                <li>
+                                  Cebola roxa
+                                </li>
+                                <li>
+                                  Tomate
+                                </li>
+                                <li>
+                                  Alface
+                                </li>
+                                <li>
+                                  Queijo mussarela
+                                </li>
+                                <li>
+                                  Hambúrguer Artesanal
+                                </li>
+                                <li>
+                                  Big Tasty
+                                </li>
+                              </ul>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                </section>
+
+                <p><a href="pag01.html" target="_blank" class="externo" >Clique aqui e acesse o cardápio de sobremesas</a></p>
+    
+                <section class="about" id="about"></section>
+                <aside>
+                    <h3>
+                        Saiba mais sobre o ZBurguer</h3>
+    
+                    <p>
+                      Nós nos encontramos em Bálsamo-SP, prezamos por lanches de qualidade e satisfação de nossos clientes.
+
+                      <div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d277.3246177357035!2d-49.57524710060235!3d-20.74185785274196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bda7833f53366d%3A0x15fa10a7b2153bd0!2sZ%20BURGUER%20Hamburgueria!5e0!3m2!1spt-BR!2sbr!4v1666917808981!5m2!1spt-BR!2sbr" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                    </p>
+                </aside>
+        </article>
+    </main>
+
+    <footer class="footer">
+      <div class="cont">
+        <div class="row">
+          <div class="footer-col">
+            <h6>ZBURGUER</h6>
+            <ul>
+              <li><a href="#">Sobre nós</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <section class="contato" id="contato"></section>
+            <h6>Contato</h6>
+            <ul>
+              <li><a href="#">+55 32 988396219</a></li>
+              <li><a href="#">fabiiolamoraes@hotmail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h6>Siga o ZBURGUER na Web</h6>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/zburguerft/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="last">Criado por Fabíola Moraes - 2021 © Todos os direitos reservados.</div>
+   </footer>
+    
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
