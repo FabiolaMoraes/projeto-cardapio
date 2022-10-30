@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 @font-face {
     font-family: 'Burguer';
@@ -21,7 +21,7 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-burguer: 'Burguer', cursive;
-    --fonte-componentes: 'Bungee Shade';
+    --fonte-componentes: 'Prata', serif;
 }
 
 * {
@@ -331,7 +331,7 @@ section.adicionais > div.card-wrapper > div.card-item > div.card-content > ul {
     font-family: var(--fonte-padrao);
     padding-top: 10px;
     color: var(--cor5);
-    text-shadow:  1px 1px 6px rgba(0, 0, 0, 0.76);
+    text-shadow:  1px 1px 4px rgba(0, 0, 0, 0.781);
     text-align: auto;
     margin: auto;
     font-size: 1.2em;
@@ -345,7 +345,7 @@ section.adicionais > div.card-wrapper > div.card-item > div.card-content > ul.be
     font-family: var(--fonte-padrao);
     padding-top: 10px;
     color: var(--cor5);
-    text-shadow:  1px 1px 6px rgba(0, 0, 0, 0.76);
+    text-shadow:  1px 1px 4px rgba(0, 0, 0, 0.781);
     text-align: auto;
     margin: auto;
     font-size: 1.2em;
@@ -405,30 +405,24 @@ border-radius: 8px;
 box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
 }
 
-.card-item1 h5 {
-width: 90%;
-color: var(--cor1);
-text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.76);
-}
-
-.card-item1 p {
-width: 90%;
-color: #000000;
-}
 
 section > div.card-wrapper1 > div.card-item1 > div.card-content1 > h5 {
-    font-family: var(--fonte-burguer);
+    font-family: var(--fonte-componentes);
     text-align: center;
-    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.829);
+    padding: 10px 0px;
+    color: var(--cor1);
+    font-weight: bolder;
+    font-size: 1.8em;
     line-height: 1;
     padding: 1.5px;
 }
 
 section > div.card-wrapper1 > div.card-item1 > div.card-content1 > ul {
     font-family: var(--fonte-destaque);
-    padding-top: 10px;
+    padding-top: 15%;
     color: var(--cor5);
-    text-shadow:  1px 1px 10px rgba(0, 0, 0, 0.76);
+    text-shadow:  1px 1px 4px rgba(0, 0, 0, 0.76);
     text-align: auto;
     margin: auto;
     font-size: 1.15em;
@@ -436,6 +430,16 @@ section > div.card-wrapper1 > div.card-item1 > div.card-content1 > ul {
     list-style-position: inside;
     list-style-type: disc;
     columns: 1;
+}
+
+section > div.card-wrapper1 > div.card-item1 > div.card-content1 > p {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    align-items: left;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.884);
+    color: var(--cor1);
 }
 
 aside {
