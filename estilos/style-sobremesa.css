@@ -301,10 +301,6 @@ color: var(--cor1);
 text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.76);
 }
 
-.card-item p {
-width: 90%;
-color: #000000;
-}
 
 section > div.card-wrapper > div.card-item > div.card-content > h5 {
     font-family: var(--fonte-burguer);
@@ -326,26 +322,6 @@ section > div.card-wrapper > div.card-item > div.card-content > ul {
     list-style-position: inside;
     list-style-type: disc;
     columns: 1;
-}
-
-aside {
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.26);
-}
-
-aside > h3 {
-    background-color: var(--cor4);
-    color: white;
-    padding: 5px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
-}
-
-aside > .mapa {
-    text-align: center;
-    display: block;
 }
 
 .cont {
