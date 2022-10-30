@@ -164,7 +164,8 @@ main a:hover {
 }
 
 main img{
-    width: 100%;
+    width: 99%;
+    border-radius: 6px;
 }
 
 main img.pequena{
@@ -221,9 +222,9 @@ section.classicos .card-wrapper0 {
 }
     
 section.classicos .card-item0 {
-    height: 904px;
+    height: 914px;
     background:  var(--cor4);
-    border-radius: 8px;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,10 +251,11 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h3 
 }
 
 section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h3 > img{
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 25px;
+    max-width: 25px;
     padding-top: 10px;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin: auto;
 }
 
 section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h4 {
@@ -335,7 +337,7 @@ box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.589);
 .card-item h5 {
 width: 90%;
 color: var(--cor1);
-text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.658);
+text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.658);
 }
 
 section.adicionais > div.card-wrapper > div.card-item > div.card-content > h5 {
