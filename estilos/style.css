@@ -382,7 +382,7 @@ margin: 1px;
 }
 
 section .card-item1 {
-height: 600px;
+height: 620px;
 background:  linear-gradient(to right, var(--cor0), var(--cor3), var(--cor0));
 border-radius: 8px;
 display: flex;
@@ -410,7 +410,7 @@ section > div.card-wrapper1 > div.card-item1 > div.card-content1 > h5 {
     font-family: var(--fonte-componentes);
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.829);
-    padding: 10px 0px;
+    padding: 5px 0px;
     color: var(--cor1);
     font-weight: bolder;
     font-size: 1.8em;
@@ -420,7 +420,7 @@ section > div.card-wrapper1 > div.card-item1 > div.card-content1 > h5 {
 
 section > div.card-wrapper1 > div.card-item1 > div.card-content1 > ul {
     font-family: var(--fonte-destaque);
-    padding-top: 15%;
+    padding-top: 12px;
     color: var(--cor5);
     text-shadow:  1px 1px 4px rgba(0, 0, 0, 0.76);
     text-align: auto;
