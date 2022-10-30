@@ -222,7 +222,7 @@ section.classicos .card-wrapper0 {
 }
     
 section.classicos .card-item0 {
-    height: 914px;
+    height: 918px;
     background:  var(--cor4);
     border-radius: 4px;
     display: flex;
@@ -244,8 +244,9 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h3 
     font-family: var(--fonte-burguer);
     text-align: center;
     padding-bottom: 18px;
-    font-size: 1.4em;
+    font-size: 1.1em;
     background-color: var(--cor1);
+    width: 100%;
     border-radius: 4px;
     color:var(--cor4) ;
 }
@@ -259,7 +260,7 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h3 
 }
 
 section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h4 {
-    padding: 1px;
+    padding-left: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: var(--fonte-destaque);
@@ -268,6 +269,7 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h4 
     color: var(--cor1);
     text-shadow: 2px 2px 15px #000000ce;
     text-shadow: none;
+    margin: auto;
 }
 
 section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > f {
@@ -277,7 +279,7 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > f {
     font-size: 1em;
     text-align: left;
     text-shadow: 2px 2px 15px #000000ce;
-    margin-left: 5px;
+    margin-left: 5%;
     line-height: 0.8;
 }
 
@@ -288,12 +290,14 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h4 
     border-radius: 50%;
     size-adjust: 50px;
     padding: 3.6px;
+    margin: auto;
 }
 
 section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > img {
     border-radius: 4px;
     padding-top: 2px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);
+    margin: auto;
 }
 
 section.adicionais .card-wrapper {
