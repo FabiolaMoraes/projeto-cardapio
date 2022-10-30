@@ -222,7 +222,7 @@ section.classicos .card-wrapper0 {
 }
     
 section.classicos .card-item0 {
-    height: 914px;
+    height: 940px;
     background:  var(--cor4);
     border-radius: 4px;
     display: flex;
@@ -300,7 +300,7 @@ section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > f {
     text-align: left;
     text-shadow: 2px 2px 15px #000000ce;
     margin-left: 5%;
-    line-height: 0.8;
+    line-height: 2;
 }
 
 section.classicos > div.card-wrapper0 > div.card-item0 > div.card-content0 > h4 > h {
