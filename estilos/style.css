@@ -14,8 +14,8 @@
     --cor0:#A61C24;
     --cor1:#F5CC2A;  
     --cor2:#F89F19;  
-    --cor3:#F6841C ; 
-    --cor4:#040404 ; 
+    --cor3:#F6841C; 
+    --cor4:#040404; 
     --cor5:#F7F4ED;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
@@ -345,7 +345,7 @@ justify-content: 0;
 margin: auto;
 display: block;
 width: 100%;
-height: auto;
+max-height: 488px;
 border-radius: 8px;
 box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.589);
 }
@@ -441,6 +441,13 @@ justify-content: 0;
 width: 80%;
 border-radius: 8px;
 box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.589);
+}
+
+section > div.card-wrapper1 > div.card-item1 > div.card-content1 > a{
+    align-items: center;
+    max-width: 30px;
+    margin: auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.089);
 }
 
 
